@@ -1,21 +1,4 @@
-// function fetchUser(){
-//     const input = document.getElementById('name').value
-//     console.log(input);
-//     fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${input}&appid=e95b351dd39e62db37b40ee6d85001cc`)
 
-//     .then(response =>response.json())
-//     .then(data=> {
-//         console.log(data)
-//         let conta = document.getElementById('container');
-
-//             conta.innerHTML+=`
-//             <h5 onclick='takeUser(${data.code})'>State-${(parseInt(data.list[0].main.temp - 273))}</h5>
-//             `
-//     })
-
-//     .catch(err=> console.log(err))
-// }
-// fetchUser()
 function fetchUser() {
   const input = document.getElementById("name").value;
   let container = document.getElementById("upBlock");
